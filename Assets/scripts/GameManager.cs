@@ -40,19 +40,6 @@ public class GameManager : MonoBehaviour
             illustratedMenu.SetActive(true);
         }
     }
-    public void StartGame()
-    {
-        SceneManager.LoadScene("game-1");
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
-    public void Restart()
-    {
-        Application.LoadLevel(Application.loadedLevel);
-    }
     public void Plant1()
     {
         plant1.SetActive(true);
