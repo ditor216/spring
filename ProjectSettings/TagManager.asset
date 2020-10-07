@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - floor
+  - Laser
+  - Enemy
+  - crystal
   layers:
   - Default
   - TransparentFX
@@ -20,8 +23,8 @@ TagManager:
   - player
   - ladder
   - OnWayPlatform
-  - 
-  - 
+  - crystal
+  - Enemy
   - 
   - 
   - 
